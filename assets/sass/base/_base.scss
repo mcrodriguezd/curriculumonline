@@ -1,0 +1,49 @@
+//Base Styles
+body {
+    font-family: $lato;
+    color: $grey;
+    line-height: 2;
+}
+
+hr {
+    border: 0.5px solid rgb(204, 200, 200);
+}
+
+p {
+    font-size: 90%;
+}
+
+a {
+    font-size: 100%;
+    text-decoration: none;
+    color: $grey;
+    font-weight: $bold;
+    display: block;
+  }
+  
+  a:hover {
+    color: gray;
+  }
+
+  
+@media (max-width: 481px){
+  
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+  
+    #experience, #education, #skills, hr{
+      display: none; 
+    }
+}
+  
+  @media (max-width: 798px){
+  .main {
+    margin: 0%;
+    padding: 2%;
+    width: 100%;
+  }
+  
+  }
+  

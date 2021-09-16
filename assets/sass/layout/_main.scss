@@ -1,0 +1,111 @@
+.main {
+    box-sizing: border-box;
+    height:90vh;
+    margin-left: 20vw;
+    width: 70vw;
+  
+    h2 {
+        font-size: 200%;
+        font-weight: $black;
+        margin: 0;
+        padding: 1.5em 0;
+
+    }
+
+    &__details {
+        padding: 1rem 0;
+
+
+        &__title { 
+            font-size: 120%;
+            margin: 0;
+            
+        }
+
+        &__subtitle {
+            font-weight: $regular;
+        }
+
+        &__description {
+            padding: 2rem 0;
+        }
+
+        &__year {
+            text-align: right;
+        }
+
+        input, textarea {
+            box-sizing: border-box;
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            border: 1px solid #c5c3c3;
+            padding: 0.5rem;
+            font-weight: $light;
+            margin: 1rem 0;
+                  } 
+    }
+
+  
+    form {
+        padding-top: 1rem;
+    }
+
+    #message {
+        vertical-align: top; 
+        min-height: 30vh;
+    }
+
+    ::placeholder {
+        color: #525050;
+        font-size: 90%;
+    }
+}
+/*@media (max-width: 768px) {
+    #about {
+        span {
+            display: block;
+            padding: .5rem 0;
+            font-size: 90%;
+            font-weight: $regular;
+        }
+
+        .name {
+            font-size: 200%;
+            padding: 0;
+        }
+    }
+
+    .main__details {
+        padding: 1em;
+
+
+        &__description {
+            padding: 2em 0 3em 0;
+        }
+        
+        &__item {
+            padding: 1rem 0;
+    
+            &__title { 
+                font-size: 100%;
+                margin: 0;
+                
+            }
+    
+            &__subtitle {
+                font-weight: $regular;
+            }
+    
+            &__description {
+                padding: 1rem 0;
+            }
+    
+            &__date {
+                text-align: right;
+            }
+        }
+    }
+}
+
+*/
